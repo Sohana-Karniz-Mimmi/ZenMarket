@@ -1,6 +1,6 @@
 import slider1 from '../../assets/images/slide.jpg'
-import slider3 from '../../assets/images/slide.jpg'
-import slider4 from '../../assets/images/slide.jpg'
+// import slider3 from '../../assets/images/slide.jpg'
+// import slider4 from '../../assets/images/slide.jpg'
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
