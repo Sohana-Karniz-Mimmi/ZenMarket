@@ -5,7 +5,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 const Topbar = () => {
     return (
-        <div className="bg-[#51AA1B] text-white py-2">
+        <div className="bg-[#51AA1B] text-white py-2 md:flex hidden">
             <Container>
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="flex text-sm items-center">

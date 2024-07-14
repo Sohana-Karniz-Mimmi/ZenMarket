@@ -64,8 +64,8 @@ const Navbar = () => {
                     <div className="">
 
                         <details className="dropdown">
-                            <summary className="m-1 text-white btn bg-transparent border-none hover:bg-transparent lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <summary className="-ml-3 btn bg-transparent border-none shadow-none hover:bg-transparent lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </summary>
                             <ul className="p-2 shadow dropdown-content z-50 bg-white rounded-box w-52 text-black space-y-2">
                                 {
@@ -94,7 +94,7 @@ const Navbar = () => {
                     {/* NavEnds */}
                     <div className="">
                         <div className="flex gap-2">
-                            <label className="input input-bordered flex items-center gap-2">
+                            <label className="input input-bordered items-center gap-2 md:flex hidden">
                                 <input type="text" className="grow" placeholder="Search in ZenMarket" />
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -107,6 +107,8 @@ const Navbar = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </label>
+
+
 
                             <div className="flex-none">
                                 <div className="dropdown dropdown-end">
@@ -151,6 +153,8 @@ const Navbar = () => {
 
                     </div>
                 </div>
+
+                
             </Container>
         </div>
     );
