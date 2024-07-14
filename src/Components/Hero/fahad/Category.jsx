@@ -5,6 +5,7 @@ const Category = () => {
         <div>
             <h1>This is category page.</h1>
             <h2>This is a subtitle.</h2>
+            <p>This is a paragraph</p>
         </div>
     );
 };
